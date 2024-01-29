@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+
+from site import getuserbase
+from site import getsitepackages
+from site import check_enableusersite
+
+print(f'getuserbase          : {getuserbase}')
+print(f'getsitepackages      : {getsitepackages}')
+print(f'check_enableusersite : {check_enableusersite}')
+
